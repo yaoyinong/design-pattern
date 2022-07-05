@@ -1,4 +1,4 @@
-package com.yyn.策略模式.版本一;
+package com.yyn.策略模式;
 
 /**
  * @author yaoyinong
@@ -7,10 +7,14 @@ package com.yyn.策略模式.版本一;
  */
 public interface CalculateStrategy {
 
+    //抽象策略
     double doOperation(double num1, double num2);
 
 }
 
+/**
+ * 策略1
+ */
 class OperationAdd implements CalculateStrategy {
 
     @Override
@@ -20,6 +24,9 @@ class OperationAdd implements CalculateStrategy {
 
 }
 
+/**
+ * 策略2
+ */
 class OperationSub implements CalculateStrategy{
 
     @Override
@@ -29,6 +36,9 @@ class OperationSub implements CalculateStrategy{
 
 }
 
+/**
+ * 策略3
+ */
 class OperationMul implements CalculateStrategy{
 
     @Override
@@ -38,6 +48,9 @@ class OperationMul implements CalculateStrategy{
 
 }
 
+/**
+ * 策略4
+ */
 class OperationDiv implements CalculateStrategy{
 
     @Override
