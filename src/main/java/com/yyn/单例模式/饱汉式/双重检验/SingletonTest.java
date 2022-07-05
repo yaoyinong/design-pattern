@@ -7,6 +7,9 @@ package com.yyn.单例模式.饱汉式.双重检验;
  */
 public class SingletonTest {
 
+    /**
+     * 私有构造方法
+     */
     private SingletonTest() {
         System.out.println("双重检验饱汉式");
     }

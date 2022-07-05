@@ -7,6 +7,9 @@ package com.yyn.单例模式.饿汉式.静态内部类;
  */
 public class SingletonTest {
 
+    /**
+     * 私有构造方法
+     */
     private SingletonTest() {
         System.out.println("静态内部类饿汉式");
     }
