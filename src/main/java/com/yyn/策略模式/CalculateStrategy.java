@@ -27,7 +27,7 @@ class OperationAdd implements CalculateStrategy {
 /**
  * 策略2
  */
-class OperationSub implements CalculateStrategy{
+class OperationSub implements CalculateStrategy {
 
     @Override
     public double doOperation(double num1, double num2) {
@@ -39,7 +39,7 @@ class OperationSub implements CalculateStrategy{
 /**
  * 策略3
  */
-class OperationMul implements CalculateStrategy{
+class OperationMul implements CalculateStrategy {
 
     @Override
     public double doOperation(double num1, double num2) {
@@ -51,7 +51,7 @@ class OperationMul implements CalculateStrategy{
 /**
  * 策略4
  */
-class OperationDiv implements CalculateStrategy{
+class OperationDiv implements CalculateStrategy {
 
     @Override
     public double doOperation(double num1, double num2) {

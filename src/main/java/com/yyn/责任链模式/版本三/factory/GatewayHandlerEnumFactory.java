@@ -42,6 +42,7 @@ public class GatewayHandlerEnumFactory {
 
     /**
      * 反射实体化具体的处理者
+     *
      * @param firstGatewayEntity
      * @return
      */

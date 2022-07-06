@@ -13,7 +13,7 @@ public class GatewayEntity {
 
     private String classFullName;
 
-    private Integer preHandlerId;  
-  
-    private Integer nextHandlerId;  
+    private Integer preHandlerId;
+
+    private Integer nextHandlerId;
 } 

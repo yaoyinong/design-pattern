@@ -10,12 +10,15 @@ public abstract class Game {
     /**
      * 启动游戏
      */
-    protected abstract void  runGame();
+    protected abstract void runGame();
 
     /**
      * 选择人物
      */
-    protected  void choosePerson() {};
+    protected void choosePerson() {
+    }
+
+    ;
 
     /**
      * 开始玩游戏
@@ -30,7 +33,7 @@ public abstract class Game {
     /**
      * 模版方法
      */
-    public final void play(){
+    public final void play() {
         runGame();
         choosePerson();
         startPlayGame();

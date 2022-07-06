@@ -24,5 +24,5 @@ public class BlacklistGatewayHandler extends GatewayHandler {
         }
         return result;
     }
-    
+
 }

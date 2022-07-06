@@ -5,7 +5,7 @@ package com.yyn.工厂模式.抽象工厂模式;
  * @date 2022/7/5 17:09
  * @description
  */
-public class PVEFactory implements ComputerFactory{
+public class PVEFactory implements ComputerFactory {
 
     @Override
     public Game game() {

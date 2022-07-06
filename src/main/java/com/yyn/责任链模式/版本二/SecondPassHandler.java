@@ -24,5 +24,5 @@ public class SecondPassHandler extends AbstractHandler {
         }
         return score;
     }
-    
+
 }

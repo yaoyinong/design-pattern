@@ -9,7 +9,7 @@ import com.yyn.责任链模式.版本二.base.AbstractHandler;
  */
 public class FirstPassHandler extends AbstractHandler {
 
-    private int play(){
+    private int play() {
         return 80;
     }
 

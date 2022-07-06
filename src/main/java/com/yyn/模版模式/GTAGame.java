@@ -5,7 +5,7 @@ package com.yyn.模版模式;
  * @date 2022/7/5 15:14
  * @description
  */
-public class GTAGame extends Game{
+public class GTAGame extends Game {
     @Override
     protected void runGame() {
         System.out.println("GTA启动");

@@ -17,15 +17,15 @@ public class FirstPassHandler {
     }
 
     //本关卡游戏得分
-    private int play(){
+    private int play() {
         return 80;
     }
 
-    public int handler(){
+    public int handler() {
         System.out.println("第一关-->FirstPassHandler");
-        if(play() >= 80){
+        if (play() >= 80) {
             //分数>=80 并且存在下一关才进入下一关
-            if(this.secondPassHandler != null){
+            if (this.secondPassHandler != null) {
                 return this.secondPassHandler.handler();
             }
         }

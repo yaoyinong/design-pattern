@@ -12,8 +12,8 @@ public enum GatewayEnum {
     API_HANDLER(new GatewayEntity(1, "api接口限流", "com.yyn.责任链模式.版本三.handler.ApiLimitGatewayHandler", null, 2)),
     BLACKLIST_HANDLER(new GatewayEntity(2, "黑名单拦截", "com.yyn.责任链模式.版本三.handler.BlacklistGatewayHandler", 1, 3)),
     SESSION_HANDLER(new GatewayEntity(3, "用户会话拦截", "com.yyn.责任链模式.版本三.handler.SessionGatewayHandler", 2, null)),
-    ;  
-  
+    ;
+
     private GatewayEntity gatewayEntity;
 
     public GatewayEntity getGatewayEntity() {

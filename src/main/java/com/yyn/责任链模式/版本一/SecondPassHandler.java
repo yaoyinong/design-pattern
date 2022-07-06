@@ -17,16 +17,16 @@ public class SecondPassHandler {
     }
 
     //本关卡游戏得分
-    private int play(){
+    private int play() {
         return 90;
     }
 
-    public int handler(){
+    public int handler() {
         System.out.println("第二关-->SecondPassHandler");
 
-        if(play() >= 90){
+        if (play() >= 90) {
             //分数>=90 并且存在下一关才进入下一关
-            if(this.thirdPassHandler != null){
+            if (this.thirdPassHandler != null) {
                 return this.thirdPassHandler.handler();
             }
         }

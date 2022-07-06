@@ -11,7 +11,7 @@ public interface ComputerFactory {
 
 }
 
-class LOLFactory implements ComputerFactory{
+class LOLFactory implements ComputerFactory {
 
     @Override
     public Game game() {
@@ -20,7 +20,7 @@ class LOLFactory implements ComputerFactory{
 
 }
 
-class DNFFactory implements ComputerFactory{
+class DNFFactory implements ComputerFactory {
 
     @Override
     public Game game() {
@@ -29,7 +29,7 @@ class DNFFactory implements ComputerFactory{
 
 }
 
-class WOWFactory implements ComputerFactory{
+class WOWFactory implements ComputerFactory {
 
     @Override
     public Game game() {
