@@ -22,9 +22,9 @@ public class MyInvocationHandler implements InvocationHandler {
 
     @Override
     public Object invoke(Object proxy, Method method, Object[] args) throws Throwable {
-        log.info("目标方法之前执行：args:{}", args);
+        log.info("JDK动态代理-目标方法之前执行：args:{}", args);
         Object invoke = method.invoke(target, args);
-        log.info("目标方法之后执行：args:{}", args);
+        log.info("JDK动态代理-目标方法之后执行：args:{}", args);
         return invoke;
     }
 
